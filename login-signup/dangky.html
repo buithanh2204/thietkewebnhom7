@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Birthstone&family=Dela+Gothic+One&family=Lato:wght@400;700&family=Lobster&family=Montserrat:wght@300;400;500;700;800;900&family=Oswald:wght@300;500&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Team Seven - Sign up</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header-top">
+            <div class="logo">
+                <a href="/index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="Tìm kiếm...">
+                <button type="button" class="btn btn-primary">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="login-signup">
+                <a href="dangky.html">ĐĂNG KÝ</a>
+                <a href="dangnhap.html">ĐĂNG NHẬP</a>
+                <a href="/carts/carts.html" style="font-size: 25px;"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+            <div class="bars-menu">
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <ul class="menu">
+                <li><a href="" class="a_bold">Sale off</a></li>
+                <li><a href="" class="a_bold">New arrival</a></li>
+                <li><a href="">Giày</a></li>
+                <li><a href="">Áo</a></li>
+                <li>
+                    <a href="">Phụ kiện</a>
+                    <div class="dropdown">
+                        <a href="">Túi xách</a>
+                        <a href="">Tất</a>
+                        <a href="">Mũ</a>
+                        <a href="">Dây giày</a>
+                    </div>
+                </li>
+                <li><a href="/news/index.html">Tin tức</a></li>
+            </ul>
+        </div>
+        
+        <div class="register">
+            <br>
+            <div class="title" style="text-align: center;font-weight: bold;font-size: 20px;">ĐĂNG KÝ THÀNH VIÊN</div>
+           <div class="col-xl-12">
+            <div class="group-form">
+                <form id="frmregister" class="post">
+                <div class="form-group">
+                    <label>Email của bạn</label>
+                    <input placeholder="Email" name="femail" id="femail" type="text" value="" style="display: block; width: 400px;border-radius: 20px;height: 40px;padding: 10px 10px 10px 10px;border: 1px solid black;">
+                </div>
+                <div class="form-group">
+                    <label>Số điện thoại</label>
+                    <input placeholder="Số Điện Thoại" name="fphone" id="fphone" type="text" value="" style="display: block; width: 400px;border-radius: 20px;height: 40px;padding: 10px 10px 10px 10px;border: 1px solid black;">
+                </div>
+                <div class="form-group">
+                    <label>Mật Khẩu Của Bạn</label>
+                    <input placeholder="Mật Khẩu" name="fpassword" id="fpassword" type="text" value="" style="display: block; width: 400px;border-radius: 20px;height: 40px;padding: 10px 10px 10px 10px;border: 1px solid black;">
+                </div>
+                <div class="form-group">
+                    <label>Họ Và Tên</label>
+                    <input placeholder="Vui Lòng Nhập Tiếng Việt Có Dấu " name="fname" id="fname" type="text" value="" style="display: block; width: 400px;border-radius: 20px;height: 40px;padding: 10px 10px 10px 10px;border: 1px solid black;">
+                </div>
+                <div class="condi-ct">
+                <div style="display:flex;" >
+                    <input type="checkbox" id="agree" name="agree" value="1" style="margin-right: 10px; width: 20px;">
+                    <div class="txt-condi"> 
+                        Tôi đăng ký vào danh sách gửi thư và đồng ý với
+                        <a target="_blank" style="display: block;color: aqua;">điều khoản sử dụng của TEAM SEVEN</a>
+                    </div>
+                </div>
+                <button class="" type="button" id="submit">ĐĂNG KÝ</button>
+                </form>
+            </div>
+           </div>
+        </div>
+        <div class="footer">
+            <div class="search-shop">
+                <img src="img/logo.png" alt="">
+                <br>
+                <a href="">TÌM CỬA HÀNG</a>
+            </div>
+
+            <div class="products-link">
+                <h4><strong>SẢN PHẨM</strong></h4>
+                <a href="">Giày nữ</a> <br>
+                <a href="">Giày nam</a> <br>
+                <a href="">Thời trang & Phụ kiện</a> <br>
+                <a href="">Sale-off</a>
+            </div>
+
+            <div class="support">
+                <h4><strong>HỖ TRỢ</strong></h4>
+                <a href="">Bảo mật thông tin</a> <br>
+                <a href="">Chính sách chung</a> <br>
+                <a href="">Tra cứu đơn hàng</a> <br>
+            </div>
+
+            <div class="contact">
+                <h4><strong>LIÊN HỆ</strong></h4>
+                <a href="">Email góp ý</a> <br>
+                <a href="">Hotline: 0963 429 xxx</a>
+            </div>
+
+            <div class="socials">
+                <h4><strong>MẠNG XÃ HỘI</strong></h4> <br>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
